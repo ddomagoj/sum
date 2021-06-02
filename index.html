@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="sum.js"></script>
+</head>
+<body>
+  <div id="wraper">
+    <div class="hero">
+      <nav id="navbar-fixed">
+        <div class="navbar">
+        <ul>
+          <li><a href="#tvrtka">Kompanija</a></li>
+          <li><a href="#kandidat">Kandidat</a></li>
+          <li><a href="#izracun">Izračunaj</a></li>
+          <li class="logo"><a href="#">BN</a></li>
+        </ul>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row hero-main">
+          <div class="hero-text">
+            <h1>Provjerite balans svojeg najdražeg niza</h1>
+          </div>
+          <div class="hero-image">
+            <img src="./images/hero.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container " id="kandidat">
+      <div class="row kandidat">
+        <div class="kandidat-ikona">
+          <img src="./images/kandidat.png">
+        </div>
+        <div class="kandidat-text">
+          <h1>Kandidat</h1>
+          <h4>Ime i prezime</h4>
+          <h2>Domagoj Despalatović</h2>
+          <h4>Adresa</h4>
+          <h2>Martićeva 31b, Zagreb</h2>
+        </div>
+      </div>
+    </div>
+    <div class="container " id="izracun">
+      <div class=" balans">
+        <div class="balans-text">
+          <h1>Balans niza</h1>
+          <h3>Pronađi indeks elementa koji niz dijeli na dva podniza sa jednakom sumom</h3>
+          <h3> Dozvoljen je unos sljedečih znakova: razmak i brojevi 0-9.</h3>
+        </div>
+        <div class="form-group">
+          <div class="form-input">
+          <input type="text" id="myInput" name="name" />
+          </div>
+          <div class="form-btn">
+            <button onclick="findElement(), validation()">Pošalji</button>
+          </div>
+        </div>
+        <div id="rezultat"></div>
+      </div>
+    </div>
+    <div class="container " id="tvrtka">
+      <div class="row tvrtka">
+        <div class="tvrtka-ikona">
+          <img src="./images/tvrtka.png">
+        </div>
+        <div class="tvrtka-text">
+          <h1>Tvrtka</h1>
+          <h4>Naziv</h4>
+          <h2>Uvid d.o.o.</h2>
+          <h4>Adresa</h4>
+          <h2>Savska 34, Ivanić Grad</h2>
+        </div>
+      </div>
+    </div>
+    <footer id="footer-wrap">
+      <div class="container">
+        <div class="foot-text">
+          <h4>Balans niza pa to je nešto prekrasno :)</h4>
+          <img src="./images/media-ikone.png" alt="">
+        </div>
+      </div>
+    </footer>
+  </div>
+  
+</body>
+</html>
